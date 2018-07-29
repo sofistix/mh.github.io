@@ -2,7 +2,7 @@ a {
 	color: #539df9;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 3000px) {
 	.logo {
 		height: 700px;
 	}
@@ -11,6 +11,12 @@ a {
 @media (max-width: 600px) {
 	.logo {
 		height: 350px;
+	}
+}
+
+@media (max-width: 400px) {
+	.logo {
+		height: 250px;
 	}
 }
 
