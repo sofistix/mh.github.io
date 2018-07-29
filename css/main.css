@@ -4,13 +4,13 @@ a {
 
 @media (max-width: 991px) {
 	.logo {
-		height: 800px;
+		height: 700px;
 	}
 }
 
 @media (max-width: 600px) {
 	.logo {
-		height: 400px;
+		height: 350px;
 	}
 }
 
