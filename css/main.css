@@ -4,20 +4,28 @@ a {
 
 @media (max-width: 3000px) {
 	.logo {
+		padding-top: 50px;
 		height: 700px;
 	}
 }
 
 @media (max-width: 600px) {
 	.logo {
+		padding-top: 50px;
 		height: 350px;
 	}
 }
 
 @media (max-width: 400px) {
 	.logo {
+		padding-top: 50px;
 		height: 250px;
 	}
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px; 
 }
 
 .btn-primary {
