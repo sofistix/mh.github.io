@@ -5,7 +5,7 @@ a {
 @media (max-width: 3000px) {
 	.logo {
 		padding-top: 50px;
-		height: 700px;
+		height: 600px;
 	}
 }
 
@@ -26,6 +26,10 @@ a {
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px; 
+}
+
+.section {
+    height: 700px;
 }
 
 .btn-primary {
