@@ -402,19 +402,15 @@
 
 	    <script>
 	   function loadHome() {
-			$( "#mainSection" ).fadeOut( 1000, function() {
 				$( "#mainSection" ).load( "sections.html #home", function() {
-					$( "#mainSection" ).fadeIn("slow");
+					$( "#mainSection" ).fadeIn(1000);
 				});
-			});
 	      }
 
      function loadAboutUs() {
-      $( "#mainSection" ).fadeOut( 1000, function() {
         $( "#mainSection" ).load( "sections.html #aboutUs", function() {
-          $( "#mainSection" ).fadeIn("slow");
+          $( "#mainSection" ).fadeIn(1000);
         });
-      });
         }
 
 	    </script>
