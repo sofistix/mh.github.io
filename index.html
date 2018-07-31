@@ -31,16 +31,16 @@
 	                <a class="nav-link" href="#" onclick="loadHome();">Home</a>
 	              </li>
 	              <li class="nav-item">
-	                <a class="nav-link" href="#"" onclick="loadAboutUs();">Services</a>
+	                <a class="nav-link" href="#" onclick="loadAboutUs();">Services</a>
 	              </li>
 	              <li class="nav-item">
-	                <a class="nav-link" href="#">Portfolio</a>
+	                <a class="nav-link" href="#" onclick="loadAboutUs();">Portfolio</a>
 	              </li>
 	              <li class="nav-item">
-	                <a class="nav-link" href="#">About Us</a>
+	                <a class="nav-link" href="#" onclick="loadAboutUs();">About Us</a>
 	              </li>
 	              <li class="nav-item">
-	                <a class="nav-link" href="#">Contact Us</a>
+	                <a class="nav-link" href="#" onclick="loadAboutUs();">Contact Us</a>
 	              </li>
 	            </ul>
 	         </div>
@@ -381,8 +381,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="https://smtpjs.com/v2/smtp.js"></script>
     <script>
+      loadHome();
     $(document).ready(function(){
-    	loadHome();
+    	//loadHome();
     });
     </script>
 
@@ -402,7 +403,7 @@
 
 	    <script>
 	   function loadHome() {
-			$( "#mainSection" ).fadeOut( 3000, function() {
+			$( "#mainSection" ).fadeOut( 1000, function() {
 				$( "#mainSection" ).load( "sections.html #home", function() {
 					$( "#mainSection" ).fadeIn("slow");
 				});
@@ -410,7 +411,7 @@
 	      }
 
      function loadAboutUs() {
-      $( "#mainSection" ).fadeOut( 3000, function() {
+      $( "#mainSection" ).fadeOut( 1000, function() {
         $( "#mainSection" ).load( "sections.html #aboutUs", function() {
           $( "#mainSection" ).fadeIn("slow");
         });

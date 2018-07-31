@@ -4,21 +4,18 @@ a {
 
 @media (max-width: 3000px) {
 	.logo {
-		padding-top: 50px;
 		height: 600px;
 	}
 }
 
 @media (max-width: 600px) {
 	.logo {
-		padding-top: 50px;
 		height: 350px;
 	}
 }
 
 @media (max-width: 400px) {
 	.logo {
-		padding-top: 50px;
 		height: 250px;
 	}
 }
@@ -29,6 +26,7 @@ a {
 }
 
 .section {
+    padding-top: 50px;
     height: 700px;
 }
 
