@@ -27,9 +27,12 @@ a {
 
 .section {
     padding-top: 50px;
+    height: 700px;
+}
+
+.aboutSection {
     margin-left: 150px;
     margin-right: 150px;
-    height: 700px;
 }
 
 .btn-primary {
