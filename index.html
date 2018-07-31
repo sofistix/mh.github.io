@@ -382,7 +382,7 @@
     <script src="https://smtpjs.com/v2/smtp.js"></script>
     <script>
     $(document).ready(function(){
-    	loadPage();
+    	loadMain();
     });
     </script>
 
@@ -401,13 +401,22 @@
       </script>
 
 	    <script>
-	      function loadPage() {
-			$( "#mainSection" ).fadeOut( "slow", function() {
-				$( "#mainSection" ).load( "sections.html #test", function() {
+	   function loadHome() {
+			$( "#mainSection" ).fadeOut( 3000, function() {
+				$( "#mainSection" ).load( "sections.html #home", function() {
 					$( "#mainSection" ).fadeIn("slow");
 				});
 			});
 	      }
+
+     function loadAboutUs() {
+      $( "#mainSection" ).fadeOut( 3000, function() {
+        $( "#mainSection" ).load( "sections.html #aboutUs", function() {
+          $( "#mainSection" ).fadeIn("slow");
+        });
+      });
+        }
+        
 	    </script>
       <!-- All Scripts End -->
   </body>
