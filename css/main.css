@@ -20,6 +20,11 @@ a {
 	}
 }
 
+.gspad {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 .textpad {
   padding-left: 200px;
   padding-right: 200px;
