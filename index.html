@@ -31,16 +31,19 @@
 	                <a class="nav-link" href="#" onclick="loadHome();">Home</a>
 	              </li>
 	              <li class="nav-item">
-	                <a class="nav-link" href="#" onclick="loadAboutUs();">Services</a>
+	                <a class="nav-link" href="#" onclick="loadServices();">Services</a>
 	              </li>
 	              <li class="nav-item">
-	                <a class="nav-link" href="#" onclick="loadAboutUs();">Portfolio</a>
+	                <a class="nav-link" href="#" onclick="loadHeatMaster();">HeatMaster</a>
 	              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="loadGenerac();">Generac</a>
+                </li>
 	              <li class="nav-item">
 	                <a class="nav-link" href="#" onclick="loadAboutUs();">About Us</a>
 	              </li>
 	              <li class="nav-item">
-	                <a class="nav-link" href="#" onclick="loadAboutUs();">Contact Us</a>
+	                <a class="nav-link" href="#" onclick="loadContactUs();">Contact Us</a>
 	              </li>
 	            </ul>
 	         </div>
@@ -407,8 +410,32 @@
 				});
 	      }
 
+     function loadServices() {
+        $( "#mainSection" ).load( "sections.html #services", function() {
+          $( "#mainSection" ).fadeIn(1000);
+        });
+        }
+
+     function loadHeatMaster() {
+        $( "#mainSection" ).load( "sections.html #heatmaster", function() {
+          $( "#mainSection" ).fadeIn(1000);
+        });
+        }
+
      function loadAboutUs() {
-        $( "#mainSection" ).load( "sections.html #aboutUs", function() {
+        $( "#mainSection" ).load( "sections.html #aboutus", function() {
+          $( "#mainSection" ).fadeIn(1000);
+        });
+        }
+
+     function loadContactUs() {
+        $( "#mainSection" ).load( "sections.html #contactus", function() {
+          $( "#mainSection" ).fadeIn(1000);
+        });
+        }
+
+     function loadAboutUs() {
+        $( "#mainSection" ).load( "sections.html #aboutus", function() {
           $( "#mainSection" ).fadeIn(1000);
         });
         }
