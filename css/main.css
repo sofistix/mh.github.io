@@ -25,6 +25,27 @@ a {
   padding-bottom: 6px;
 }
 
+.hmRowPadTop {
+  padding-top: 30px;
+}
+
+
+@media (max-width: 400px) {
+  .hmLogoSm {
+    width: 300px;
+  }
+}
+
+.hmRowPadLogo {
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.hmTxtBottom {
+  text-align: -webkit-auto;
+}
+
 .textpad {
   padding-left: 200px;
   padding-right: 200px;
