@@ -36,8 +36,26 @@ a {
   }
 }
 
+@media (max-width: 3000px) {
+  .genLogoSm {
+    width: 396px;
+  }
+}
+
+@media (max-width: 400px) {
+  .genLogoSm {
+    width: 300px;
+  }
+}
+
+.carouselImg {
+  width: auto;
+  height: 800px;
+  max-height: 800px;
+}
+
 .hmRowPadLogo {
-    padding-right: 0px;
+    padding-right: 0px;;
     padding-bottom: 10px;
     padding-left: 50px;
 }
