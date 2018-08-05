@@ -404,7 +404,18 @@
       </script>
 
 	    <script>
-    	   function loadHome() {
+
+
+        loadHome(){
+            $('#mainSection').load("sections.html #home", function(){
+                $('#mainSection').fadeIn('slow');
+            });
+          };
+
+
+
+
+    	  /* function loadHome() {
     				$( "#mainSection" ).load( "sections.html #home", function() {});
           };
          function loadHeatMaster() {
@@ -412,7 +423,7 @@
           };
           function loadGenerac() {
             $( "#mainSection" ).load( "sections.html #generac", function() {});
-          };
+          };*/
 	    </script>
       <!-- All Scripts End -->
   </body>
