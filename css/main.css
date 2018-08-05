@@ -1,5 +1,5 @@
 a {
-	color: #539df9;
+	color: #448edc;
 }
 
 @media (max-width: 3000px) {
@@ -20,12 +20,24 @@ a {
 	}
 }
 
-.navbar {
-  height: 50px;
+.fixed-top {
+    z-index : 1;
 }
-.navbar img {
+
+.logoOnTop {
+  z-index: 2;
+}
+
+.navTop {
   width: auto;
-  height: 200%;
+  height: 150px;
+}
+
+@media (max-width: 850px) {
+  .navTop {
+    width: auto;
+    height: 55px;
+  }
 }
 
 .gspad {
@@ -120,12 +132,12 @@ a {
 
 .btn-primary {
     color: #fff;
-    background-color: #539df9;
-    border-color: #539df9;
+    background-color: #448edc;
+    border-color: #448edc;
 }
 
 .navbar {
-  background-color: #a5a5a5;
+  background-color: #448edc;
 }
 .navbar .navbar-brand {
   color: #ffffff;
