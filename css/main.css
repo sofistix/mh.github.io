@@ -20,6 +20,14 @@ a {
 	}
 }
 
+.navbar {
+  height: 50px;
+}
+.navbar img {
+  width: auto;
+  height: 200%;
+}
+
 .gspad {
   padding-top: 6px;
   padding-bottom: 6px;
@@ -117,7 +125,7 @@ a {
 }
 
 .navbar {
-  background-color: #539df9;
+  background-color: #a5a5a5;
 }
 .navbar .navbar-brand {
   color: #ffffff;

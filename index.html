@@ -47,6 +47,7 @@
 	              </li>
 	            </ul>
 	         </div>
+           <img class="topLogo" id="mainLogo" src="imgs/logo.png">
   	</nav>
   	<!-- Navigation Bar End -->
 
@@ -407,27 +408,41 @@
 
 
         function loadHome(){
+            hideLogo();
             $('#mainSection').load("sections.html #home", function(){}).hide().fadeIn(2000);
         }
 
         function loadServices(){
+            showLogo();
             $('#mainSection').load("sections.html #services", function(){}).hide().fadeIn(2000);
         }
 
         function loadHeatMaster(){
+            showLogo();
             $('#mainSection').load("sections.html #heatmaster", function(){}).hide().fadeIn(2000);
         }
 
         function loadGenerac(){
+            showLogo();
             $('#mainSection').load("sections.html #generac", function(){}).hide().fadeIn(2000);
         }
 
         function loadAboutUs(){
+            showLogo();
             $('#mainSection').load("sections.html #aboutus", function(){}).hide().fadeIn(2000);
         }
 
         function loadContactUs(){
+            showLogo();
             $('#mainSection').load("sections.html #contactus", function(){}).hide().fadeIn(2000);
+        }
+
+        function hideLogo() {
+          $('#mainLogo').hide();
+        }
+
+        function showLogo() {
+          $('#mainLogo').show();
         }
 
 
