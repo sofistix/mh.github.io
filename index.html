@@ -391,7 +391,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="https://smtpjs.com/v2/smtp.js"></script>
     <script>
-    hideLogo();
+
+    $(window).on('load', function() { hideLogo(); });
 
     $(document).ready(function(){
     	loadHome();
@@ -407,8 +408,8 @@
         if (i < txt.length) {
           document.getElementById("demo").innerHTML += txt.charAt(i);
           i++;
-          setTimeout(typeWriter, speed);
-        }
+          setTimeout(typeWriter, speed);        }
+
       }
       </script>
 
