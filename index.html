@@ -396,6 +396,19 @@
 
     $(document).ready(function(){
     	loadHome();
+
+        var wrapSection = $("#mainSection");
+        var wrapLogo = $("#mainLogo");
+
+        wrapSection.on("scroll", function(e) {
+            
+          if (this.scrollTop > 10) {
+            wrapLogo.addClass("mainLogoFix");
+          } else {
+            wrapLogo.removeClass("mainLogoFix");
+          }
+          
+        });
     });
     </script>
 
@@ -414,8 +427,6 @@
       </script>
 
 	    <script>
-
-
         function loadHome(){
             hideLogo();
             $('#mainSection').load("sections.html #home", function(){}).hide().fadeIn(2000);
@@ -453,19 +464,6 @@
         function showLogo() {
           $('#mainLogo').show();
         }
-
-        var wrapSection = $("#mainSection");
-        var wrapLogo = $("#mainLogo");
-
-        wrapSection.on("scroll", function(e) {
-            
-          if (this.scrollTop > 10) {
-            wrapLogo.addClass("mainLogoFix");
-          } else {
-            wrapLogo.removeClass("mainLogoFix");
-          }
-          
-        });
 	    </script>
       <!-- All Scripts End -->
   </body>
