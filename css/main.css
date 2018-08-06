@@ -28,6 +28,10 @@ a {
   z-index: 2;
 }
 
+.mainLogoFix {
+  position: fixed;
+}
+
 .navTop {
   width: auto;
   height: 150px;

@@ -454,6 +454,17 @@
           $('#mainLogo').show();
         }
 
+        var wrap = $("#mainLogo");
+
+        wrap.on("scroll", function(e) {
+            
+          if (this.scrollTop > 100) {
+            wrap.addClass("mainLogoFix");
+          } else {
+            wrap.removeClass("mainLogoFix");
+          }
+          
+        });
 
     	  /* function loadHome() {
     				$( "#mainSection" ).load( "sections.html #home", function() {});
