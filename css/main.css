@@ -29,6 +29,7 @@ a {
 }
 
 .mainLogoFix {
+  width: auto;
   height: 55px;
   position: fixed;
 }
