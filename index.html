@@ -465,6 +465,19 @@
           $('#mainLogo').show();
         }
 	    </script>
+
+      <script>
+          window.onscroll = function() {myFunction()};
+
+          function myFunction() {
+              if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    $("#mainLogo").addClass("mainLogoFix");
+                  else {
+                    $("#mainLogo").removeClass("mainLogoFix");
+                  }
+              }
+          }
+      </script>
       <!-- All Scripts End -->
   </body>
 
