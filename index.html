@@ -59,32 +59,10 @@
   	<!-- Navigation Bar End -->
 
   	<div class="section" id="mainSection">
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
-    test</br>
   	</div>
+
+    <div class="section" id="secondSection">
+    </div>
 
       <!-- Footer -->
       <footer class="page-footer font-small mdb-color pt-4 mt-4">
@@ -480,6 +458,10 @@
         function loadContactUs(){
             showLogo();
             $('#mainSection').load("sections.html #contactus", function(){}).hide().fadeIn(2000);
+        }
+
+        function gs100Load() {
+            $('#secondSection').load("sections.html #gs100", function(){});
         }
 
         function hideLogo() {

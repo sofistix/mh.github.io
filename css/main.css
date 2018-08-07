@@ -23,6 +23,16 @@ a {
 	}
 }
 
+.card-img-top{
+  width: 90%;
+  margin-top: 10px;
+}
+
+.hmImgs {
+  height: 250px;
+  width: auto;
+}
+
 .fixed-top {
     z-index : 1;
 }
