@@ -33,6 +33,18 @@ a {
   width: 500px;
 }
 
+@media (max-width: 646px) {
+  .layerSize {
+    width: 400px;
+  }
+}
+
+@media (max-width: 525px) {
+  .layerSize {
+    width: 250px;
+  }
+}
+
 .card-img-top{
   width: 90%;
   margin-top: 10px;
