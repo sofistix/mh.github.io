@@ -23,6 +23,16 @@ a {
 	}
 }
 
+.catalogSection {
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+
+.layerSize {
+  width: 500px;
+}
+
 .card-img-top{
   width: 90%;
   margin-top: 10px;
