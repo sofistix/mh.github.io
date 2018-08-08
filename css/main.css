@@ -170,6 +170,11 @@ a {
     padding-top: 50px;
 }
 
+.catalog {
+  width: 100%;
+  height: auto;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #448edc;
