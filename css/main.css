@@ -60,13 +60,12 @@ a {
 }
 
 .logoOnTop {
-  z-index: 2;
+  height: 50px;
 }
 
 .mainLogoFix {
   width: auto;
   height: 55px;
-  position: fixed;
 }
 
 .navTop {
