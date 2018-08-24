@@ -1,3 +1,15 @@
+.contactUsSection{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contactTxtPadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 a {
 	color: #448edc;
 }
@@ -160,11 +172,6 @@ a {
 .textpad {
   padding-left: 200px;
   padding-right: 200px;
-}
-
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px; 
 }
 
 .section {

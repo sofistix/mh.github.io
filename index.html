@@ -284,6 +284,29 @@
               }
   
       </script>
+
+      <script>
+        function sendEmail() {
+          var input = document.getElementById('depSelect');
+          if (input.value == "Sales") {
+            email = "sales@mhheatingandcooling.com";
+            subject = "Sales";
+          }
+          else if (input.value == "Services"){
+            email = "services@mhheatingandcooling.com";
+            subject = "Services";
+          }
+          else if (input.value == "Support"){
+            email = "support@mhheatingandcooling.com";
+            subject = "Support";
+          }
+
+          var body = document.getElementById('msgBody');
+          var name = document.getElementById('userName');
+
+          window.location.href = "mailto:" + email + "?subject=" + subject + "&body=" + "Hi my name is " + name.value + ",%0D%0D"+ body.value;
+        }
+      </script>
       <!-- All Scripts End -->
   </body>
 
