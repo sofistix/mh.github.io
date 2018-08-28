@@ -10,6 +10,11 @@
     padding-right: 10px;
 }
 
+.hmBG {
+  background-image: url("../imgs/heatmaster/bg.jpg");
+  background-repeat: no-repeat;
+}
+
 .heatmasterModelSpacing {
   padding-top: 20px;
 }
