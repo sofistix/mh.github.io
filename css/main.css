@@ -85,6 +85,11 @@ a {
   }
 }
 
+@media (max-width: 769px){
+  .carousel-caption {
+    font-size: 12px;
+  }
+}
 .card-img-top{
   width: 90%;
   margin-top: 10px;
