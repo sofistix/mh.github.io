@@ -38,7 +38,7 @@
 }
 
 a {
-	color: #448edc;
+	color: #466280;
 }
 
 @media (max-width: 3000px) {
@@ -217,12 +217,15 @@ a {
 
 .btn-primary {
     color: #fff;
-    background-color: #448edc;
-    border-color: #448edc;
+    background-color: #466280;
+    border-color: #466280;
 }
 
 .navbar {
-  background-color: #448edc;
+  background-color: #466280;
+  box-shadow: 4px 4px 20px #888;
+  font-size: 18px;
+  font-weight: 400;
 }
 .navbar .navbar-brand {
   color: #ffffff;
